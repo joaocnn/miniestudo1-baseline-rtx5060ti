@@ -1,0 +1,18 @@
+# Outliers detectados pelo critério IQR (k=1.5) — gemm_rtx5060ti_20260509_120531.csv
+# Total: 15
+
+run=1     N=256    tempo_ms=0.0559  motivo=IQR
+run=6     N=256    tempo_ms=0.0097  motivo=IQR
+run=11    N=256    tempo_ms=0.0125  motivo=IQR
+run=13    N=256    tempo_ms=0.0507  motivo=IQR
+run=16    N=256    tempo_ms=0.0110  motivo=IQR
+run=21    N=256    tempo_ms=0.0108  motivo=IQR
+run=26    N=256    tempo_ms=0.0110  motivo=IQR
+run=29    N=256    tempo_ms=0.0916  motivo=IQR
+run=1     N=512    tempo_ms=0.0767  motivo=IQR
+run=6     N=512    tempo_ms=0.0279  motivo=IQR
+run=11    N=512    tempo_ms=0.0294  motivo=IQR
+run=16    N=512    tempo_ms=0.0282  motivo=IQR
+run=21    N=512    tempo_ms=0.0292  motivo=IQR
+run=26    N=512    tempo_ms=0.0283  motivo=IQR
+run=21    N=2048   tempo_ms=1.1780  motivo=IQR

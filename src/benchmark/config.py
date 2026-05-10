@@ -31,3 +31,10 @@ OUTPUT_DIR = "data/raw"
 
 # Identificador do cenário, usado na coluna 'cenario' do CSV.
 SCENARIO_NAME = "rtx5060ti_cublas_fp32"
+
+# A cada quantas repetições medidas lê a temperatura da GPU.
+TEMP_READ_INTERVAL = 5
+
+# Variação de temperatura (°C) em um bloco que aciona o flag "delta_temp_alto".
+# Ver ficha_planejamento.md, item 17.
+TEMP_DELTA_THRESHOLD = 5

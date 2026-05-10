@@ -1,0 +1,13 @@
+name: avd-miniestudo1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - cupy
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - tabulate
