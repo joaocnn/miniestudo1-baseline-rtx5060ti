@@ -7,6 +7,11 @@ N ∈ {256, 512, 1024, 2048, 4096}.
 **Disciplina:** ICC305 — Avaliação de Desempenho  
 **Contexto:** Mini Estudo 1 — coleta do baseline de SGEMM denso
 
+Equipe:
+Caio Aleixo Cunha
+João Carlos Normando Nogueira
+Leonardo de Souza Bitencourt Irias
+
 ---
 
 ## Pergunta operacional
@@ -56,9 +61,7 @@ qualquer uma falhar. Os artefatos aparecem em `data/raw/`, `data/processed/` e
 ```
 miniestudo1-baseline-rtx5060ti/
 ├── docs/
-│   ├── ficha_planejamento.md   # Decisões metodológicas pré-coleta
-│   ├── planejamento.md         # Notas de planejamento
-│   └── relatorio.md            # Template do relatório final
+│   ├── Relatorio_MiniEstudo1_Baseline_RTX5060Ti.pdf
 ├── src/
 │   ├── benchmark/
 │   │   ├── config.py           # Parâmetros do experimento (N, reps, seed…)
@@ -115,5 +118,3 @@ de desempenho de GPUs em workloads de multiplicação de matrizes densas.
 
 Para citar este repositório, use o hash do commit que gerou os dados ou o
 timestamp registrado no arquivo de metadados (`data/raw/metadata_<timestamp>.json`).
-
-claude --resume dcf4e91a-dd2e-49cb-b6e4-f28dbd1efdd6
