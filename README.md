@@ -9,7 +9,9 @@ N ∈ {256, 512, 1024, 2048, 4096}.
 
 Equipe:
 Caio Aleixo Cunha
+
 João Carlos Normando Nogueira
+
 Leonardo de Souza Bitencourt Irias
 
 ---
