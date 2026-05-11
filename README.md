@@ -97,7 +97,7 @@ miniestudo1-baseline-rtx5060ti/
 | Boxplot tempo por N | `figures/boxplot_tempo_por_N.png` |
 | GFLOPS vs N | `figures/gflops_vs_N.png` |
 | Temperatura durante coleta | `figures/temperatura_durante_coleta.png` |
-| Relatório | `docs/relatorio.md` |
+| Relatório | `docs/Relatorio_MiniEstudo1_Baseline_RTX5060Ti.pdf` |
 
 ## Limitações
 
@@ -109,8 +109,6 @@ Este baseline **não permite concluir**:
 - O desempenho em workloads reais (LLM, treino, etc.)
 - Comportamento sob carga térmica sustentada (>30 min)
 - Comportamento em outras versões de driver, CUDA ou cuBLAS
-
-Ver `docs/ficha_planejamento.md`, item 15, para discussão detalhada.
 
 ## Contexto acadêmico
 
